@@ -1,0 +1,27 @@
+.content {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 20px;
+      img{
+        font-size:64px;
+      }
+  }
+  
+  button#backToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:#fff;
+    color:#000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    transition: background-color 0.3s;
+  }
+  
+  button#backToTopBtn:hover {
+    background-color: #fff;
+  }
+  

@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@uiw/react-back-top": "^4.22.3",
     "axios": "^1.6.8",
     "react": "^18.2.0",
     "react-axios": "^2.0.6",
     "react-dom": "^18.2.0",
     "react-icons": "^5.1.0",
+    "react-scroll": "^1.9.0",
     "sass": "^1.75.0"
   },
   "devDependencies": {

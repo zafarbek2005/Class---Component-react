@@ -5,7 +5,7 @@ import home from './img/home.svg'
 import home1 from './img/home1.svg'
 import home2 from './img/home2.svg'
 import opa from './img/opa.svg'
-
+import Backtop from '../Backtop/Backtop'
 export default class Home extends Component {
   render() {
     return (
@@ -78,7 +78,7 @@ equipment  make your marketing plane Effective.</p>
           <h3>Food Full of treaty Love</h3>
           <p>There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, </p>
         </div>
-      
+        <Backtop/>
         </section>
       </main>
       
