@@ -7,13 +7,15 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-  text-decoration: none;
+    text-decoration: none;
 }
 .Conteiner{
-    max-width: 1440px;
+    max-width: 140px;
     padding: 0 20px;
     margin: 0 auto;
 }
+
+
 
 .wrapper{
     display: flex;
@@ -21,17 +23,16 @@
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
-    padding-top: 321px;
+    padding-top:150px;
       .card{
-        width: 380px;
+        width: 385px;
         height: 446px;
-        top: 2093px;
-        left: 150px;
         gap: 0px;
-        border: 1px 0px 0px 0px;
+        border: 1px;
         opacity: 0px;
-        margin: 50px;
+        margin: 30px;
         border: 1px solid #0000001A;
+        border-radius: 75px, 10px, 10px, 10px;
             img{
                 width: 360px;
                 height: 250px;
@@ -48,6 +49,7 @@
                 align-items: center;
                 justify-content: space-between;
                 padding-top: 31px;
+                
                 h3{
                     font-family: Philosopher;
                     font-size: 25px;
@@ -67,14 +69,14 @@
                     font-size: 25px;
                     font-weight: 700;
                     line-height: 24px;
-                    text-align: right;
+                    text-align: center;
                     width: 36px;
                     height: 24px;
-                    top: 2378px;
-                    left: 449px;
+                    left: -25px;
                     gap: 0px;
                     opacity: 0px;
-                    padding-left: -35px;
+                    position: relative;
+
                 }
               
             }
@@ -128,5 +130,21 @@
                 }
             }
 
+      }
+      button{
+        width: 142px;
+        height: 42px;
+        gap: 0px;
+        border-radius: 5px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: .5px solid #DC780B;
+        color:#DC780B;
+        background: #fff;
+        transition: .3s;
+        cursor: pointer;
+ &:hover{
+    transform: scale(.9);
+ }
       }
 }

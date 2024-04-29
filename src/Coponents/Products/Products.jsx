@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import axios from '../Api/Index'
-import B from './img/b.svg'
 import './Products.scss'
 import star from './img/star.svg'
 
@@ -23,13 +22,9 @@ export class Products extends Component {
     return (
     
       <>
-      
-      
-     
 
-
-        <div className="wrapper ">
-        {
+        <div className="wrapper Conteiner ">
+           {
             this.state.data?.slice(0,6).map((el) => 
 
             <div className="card">
@@ -41,10 +36,11 @@ export class Products extends Component {
             <p id='w' title= {el.description}> {el.description}</p>
             <div className="icon">
               <p>+</p>
-              <img src= {star} alt="" />
+              <img src= {star} alt={el.title} />
             </div>
         </div>)
         }
+        <button>Learn More</button>
           
         </div>
 

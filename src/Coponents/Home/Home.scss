@@ -216,3 +216,55 @@ body{
       }
     }
 }
+.menu{
+  padding-left:300px; 
+  text-align: center;
+  padding-top: 115px;
+  padding-bottom: 50px;
+  h6{
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0.2em;
+      text-align: center;
+      width: 55px;
+      height: 24px;
+      gap: 0px;
+      opacity: 0.7px;
+      color: #DC780B;
+      padding-left: 350px;
+  }
+  h3{
+      font-family: Philosopher;
+      font-size: 31.25px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+      // width: 325px;
+      height: 24px;
+      top: 1920px;
+      left: 557px;
+      gap: 0px;
+      opacity: 0px;
+      padding-top: 9px;
+      padding-left: 220px;
+  }
+  p{
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      width: 748px;
+      height: 64px;
+      top: 1969px;
+      left: 347px;
+      gap: 0px;
+      opacity: 0.7px;
+      color: #000;
+      padding-top: 25px;
+      padding-left: 55px;
+  }
+
+}

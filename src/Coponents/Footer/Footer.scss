@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    button{
+        cursor: pointer;
+    }
+}
+
+.Conteiner{
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+#f1{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 448px;
+    background: #fff2e6;
+
+
+    p{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.75px;
+        letter-spacing: 0.2em;
+        text-align: center;
+        width: 94px;
+        height: 19px;
+        top: 3933px;
+        left: 673px;
+        gap: 0px;
+        opacity: 0.7px;
+        color: #DC780B;
+        padding-left: 440px;
+    }
+    h3{
+        font-family: Philosopher;
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 40.6px;
+        text-align: center;
+        width: 749px;
+        height: 61px;
+        top: 3967px;
+        left: 345px;
+        gap: 0px;
+        opacity: 0px;   
+        color: #000;
+        padding-top: 15px;
+        padding-left: 210px;
+    }
+    input{
+        margin-top:80px;
+        margin-left:120px;
+        width: 749px;
+        height: 61px;
+        top: 3967px;
+        left: 345px;
+        gap: 0px;
+        opacity: 0px;
+        border-radius: 10px;
+        border: 1px solid #0000001A;
+        outline: none;
+    }
+    button{
+        width: 156px;
+        height: 60px;
+        gap: 0px;
+        border-radius: 10px;
+        opacity: 0px;
+        background: #DC780B;
+        color: #fff;
+        border: none;
+        position: relative;
+        right: 155px;
+    }
+}
