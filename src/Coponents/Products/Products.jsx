@@ -1,5 +1,9 @@
 import React, { Component } from 'react'
 import axios from '../Api/Index'
+import B from './img/b.svg'
+import './Products.scss'
+import star from './img/star.svg'
+
 export class Products extends Component {
     constructor() {
         super()
@@ -18,15 +22,38 @@ export class Products extends Component {
 
     return (
     
+      <>
+      
+      
+     
 
-      <div>
-        <h1>Products</h1>
 
+        <div className="wrapper ">
         {
-            this.state.data?.map((el) => <img width={250} height={250}  src= {el.images[0]} alt= {el.title} /> )
-        }
+            this.state.data?.slice(0,6).map((el) => 
 
-      </div>
+            <div className="card">
+            <img src= {el.images[0]} alt={el.title} />
+            <div className="title">
+              <h3>{el.title}</h3>
+              <p>16$</p>
+            </div>
+            <p id='w' title= {el.description}> {el.description}</p>
+            <div className="icon">
+              <p>+</p>
+              <img src= {star} alt="" />
+            </div>
+        </div>)
+        }
+          
+        </div>
+
+   
+   
+        
+      
+      </>
+
     )
   }
 }
