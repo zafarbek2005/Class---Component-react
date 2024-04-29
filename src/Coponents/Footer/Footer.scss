@@ -87,3 +87,79 @@
         right: 155px;
     }
 }
+
+#fut{
+    
+    background: #252525;
+
+}
+
+footer{
+    width:100%;
+    height: 429px;
+    background: #252525;
+
+}
+.fotter-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+      .footer-logo{
+        padding-top: 137px;
+           .links{
+            padding-top: 25px;
+            a{
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16.41px;
+                text-align: left;
+                width: 262px;
+                height: 13px;
+                top: 4488px;
+                left: 150px;
+                gap: 0px;
+                opacity: 0.7px;
+                color: #fff;
+                padding-top: 15px;
+            }
+           }
+      }
+      .items{
+        padding-top: 137px;
+
+        h3{
+            font-family: Philosopher;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 20.16px;
+            text-align: left;
+            width: 262px;
+            height: 17px;
+            top: 4403px;
+            left: 443px;
+            gap: 0px;
+            opacity: 0px;
+            color: #fff;
+            padding-left: 15px;
+        }
+        .item{
+            padding-top: 25px;
+            a{
+                font-family: Roboto;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16.41px;
+                text-align: left;
+                width: 262px;
+                height: 13px;
+                gap: 0px;
+                opacity: 0.7px;
+                color: #fff;
+                padding: 10px;
+            }
+        }
+      }
+}

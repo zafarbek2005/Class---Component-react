@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
 import './Backtop.scss';
-import up from './img/up.png'
-
+import up from './img/up.png';
 
 const BackToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -17,7 +16,6 @@ const BackToTopButton = () => {
     };
 
     window.addEventListener('scroll', toggleVisibility);
-
 
     return () => {
       window.removeEventListener('scroll', toggleVisibility);
@@ -34,7 +32,9 @@ const BackToTopButton = () => {
   return (
     <div className="content">
       {isVisible && (
-        <button onClick={scrollToTop} id="backToTopBtn"><img src= {up} alt="" /></button>
+        <button onClick={scrollToTop} id="backToTopBtn">
+          <img style={{ width: '32px', objectFit: 'cover' }} src={up} alt="Back-top" />
+        </button>
       )}
     </div>
   );
