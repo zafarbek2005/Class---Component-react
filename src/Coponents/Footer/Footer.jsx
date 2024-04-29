@@ -61,7 +61,9 @@ export class Footer extends Component {
              <div className="item">
              <a href="#">Landingpage</a> <br />
             <a href="#">Documentation</a> <br />
+            <a href="#">Referral Program</a> <br />
             <a href="#">Documentation</a> <br />
+            <a href="#">Referral Program</a> <br />
          
              </div>
           </div>
